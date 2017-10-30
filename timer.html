@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>倒计时</title>
+</head>
+    <body>
+        <div id="setupMode" style="display:block">
+            <h2>请输入时间:</h2>
+            <input type="number" id="inputHours" class="number" onblur="hoursAutoFill()" value="000">时</input>
+            <input type="number" id="inputMinutes" class="number" onblur="minutesAutoFill()" value="01">分</input>
+            <input type="number" id="inputSeconds" class="number" onblur="secondsAutoFill()" value="00">秒</input>
+            <input id="buttonStart" type="button" class="button" onclick="Start()" value="开始倒计时"></input>
+        </div>
+        <div id="workMode" style="display:none">
+            <span id="screen">
+                <p id="timer">00 : 00 : 00 : 00</p>
+            </span>
+            <input id="buttonPause_Resume" type="button" class="button" onclick="Pause_Resume()" value="暂停"></input>
+            <input id="buttonReset" type="button" class="button" onclick="Reset()" value="重置"></input>
+        </div>
+    </body>
+</html>
