@@ -1,0 +1,99 @@
+body{
+    text-align:center;
+    background-image: url("The Persistence of Memory.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    margin:0 auto;
+    width: 600px;
+    height: 230px;
+    text-align:center;
+    background-color:gainsboro;
+    color: black;
+    padding: 50px;
+    border: none;
+    border-radius: 50px;
+    opacity: 0.95;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    position: relative;
+    margin-top: 160px;
+}
+
+
+.button{
+    width: 160px;
+    background-color: green;
+    color: white;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Microsoft JhengHei";
+    margin: 4px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 7px #999;
+    position: absolute;
+}
+.button:hover {background-color: #3e8e41}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#buttonStart{
+    width: 500px;
+    padding: 15px 180px;
+    bottom: 50px;
+    left: 75px;
+    position: absolute;
+}
+#buttonPause_Resume{
+    bottom: 60px;
+    right: 60px;
+}
+#buttonReset{
+    top: 60px;
+    right: 60px;
+}
+
+.number{
+    width: 60px;
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family:Ebrima;
+}
+
+h2{
+    margin: 25px;
+    margin-top: 5px;
+}
+span{
+    display: block;
+    text-align: left;
+    border-radius: 20px;
+    background-color: slateblue;
+    margin: 10px;
+    width: 270px;
+    position: absolute;
+    padding: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#timer{
+    font-size: 50px;
+    font-family: Impact;
+}
